@@ -1,10 +1,11 @@
 Waveform.JS
 ==========
 
-Waveform.JS makes drawing [SoundCloud](http://soundcloud.com) waveforms simple and
-lets you **style** and **color** them the way you want. It comes as a small
-JavaScript library and is using a lightweight service hosted on
-[waveformjs.org](http://waveformjs.org) that translates the waveform image provided by
-SoundCloud into an **array** of **floating points**.
+Waveform.JS is no longer operational.
 
-Head to [waveformjs.org](http://waveformjs.org) for the documentation.
+This service and SDK used to provide an SDK to translate a waveform into
+floating points to render on an HTML5 canvas.
+
+An unsupported alternative to render waveforms as JSON, is to replace the
+`.png` extension with `.json` on the [Track
+waveform_url](https://developers.soundcloud.com/docs/api/reference#tracks).
